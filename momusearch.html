@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>momusearch</title>
+    
+    <link rel="stylesheet" href="momusearch.css">
+    <link href='http://fonts.googleapis.com/css?family=Offside' rel='stylesheet' type='text/css'>
+
+    <script src="momusearch.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="title_heading">momusearch</h1>
+      <form class="mosoho_form">
+        <fieldset class="field">
+          <input type="text" class="search_field" id="search_field"/>
+        </fieldset>
+        <fieldset class="submit_buttons">
+          <ul class="submit_buttons_list">          
+            <li><img src="http://d1hwvnnkb0v1bo.cloudfront.net/content/art/app/icons/google_search_icon.jpg" class="submit_button" id="search_google" onClick="window.searchSite(google);" width="50px"></li>
+            <li><img src="http://icons.iconarchive.com/icons/sykonist/popular-sites/256/Wikipedia-icon.png" class="submit_button" id="search_wikipedia" onClick="window.searchSite(wikipedia);" width="50px"></li>
+            <li><img src="https://cdn1.iconfinder.com/data/icons/metro-uinvert-dock/256/YouTube_alt_2.png" class="submit_button" id="search_youtube" onClick="window.searchSite(youtube);" width="50px"></li>
+          </ul>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+
+</html>
