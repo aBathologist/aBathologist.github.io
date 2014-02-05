@@ -1,6 +1,6 @@
 body
 {
-    width: 100%;
+    /* width: 100%; */
     background-color: #eee
 }
 
@@ -11,6 +11,7 @@ fieldset
 
 .title_heading
 {
+    margin: 0 auto;
     font-family: 'Offside', cursive;
     text-align:center;
 }
