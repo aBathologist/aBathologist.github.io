@@ -38,7 +38,7 @@ fieldset
 .search_field
 {
     width: 90%;
-    margin-left: 2%;
+    margin-left: auto;
     height: 24px;
     font-size: 16px;
     border-color: #aaa;
