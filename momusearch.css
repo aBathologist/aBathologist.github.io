@@ -22,14 +22,11 @@ fieldset
     margin: 0 auto;
 }
 
-/* .mosoho_form */
-/* { */
-/*     margin-left:  8px; */
-/*     margin-right: 8px; */
-/* } */
 
 .field
 {
+    padding: 0;
+    margin: 0 auto;
     height: 30px;   
 }
 
@@ -53,6 +50,7 @@ fieldset
 
 .submit_buttons_list
 {
+    padding: 0;
     width: 90%;
     padding-left: 4px;
     margin: 0 auto;
@@ -60,6 +58,7 @@ fieldset
 
 .submit_buttons_list > li
 {
+    padding: 0;
     width:33%;
     float:left;
     list-style: none;
