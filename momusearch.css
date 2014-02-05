@@ -21,11 +21,11 @@ fieldset
     margin: 0 auto;
 }
 
-.mosoho_form
-{
-    margin-left:  8px;
-    margin-right: 8px;
-}
+/* .mosoho_form */
+/* { */
+/*     margin-left:  8px; */
+/*     margin-right: 8px; */
+/* } */
 
 .field
 {
@@ -34,6 +34,7 @@ fieldset
 
 .search_field
 {
+    margin: 0 auto;
     width: 90%;
     height: 24px;
     font-size: 16px;
