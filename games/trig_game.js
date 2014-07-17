@@ -10,11 +10,13 @@ window.onload = function() {
 
 var angle = {
 
-    angles    : [0, 30, 45, 60, 90],
-    random : function() { var deg = random_element( this.angles );
-                          return { degrees: deg,
-                                   radians: radians_from_degrees(deg) };
-                        }
+    angles : [0, 30, 45, 60, 90],
+
+    random : function() {
+        var deg = random_element( this.angles );
+        return { degrees: deg,
+                 radians: radians_from_degrees(deg) };
+    }
     
 };
 
@@ -37,38 +39,47 @@ var trig = {
                };
     }
 
-
 };
 
-
 var problem = {
+
     element : null,
     current : null,
-    new_prob: function() { this.current = trig.random_problem();
-                           this.display(); },
+
+    new_prob: function() {
+        this.current = trig.random_problem();
+        this.display();
+    },
 
     display : function() { this.element.innerHTML = this.current.prob; },
     solved  : function() { return answer.val() == this.current.answer; }
 };
 
 var answer = {
+
     element : null,
+
     val     : function() {return this.element.value;},
     clear   : function() {this.element.value = "";}
 };
 
 var score = {
+
     element : null,
     val : 0,
     
     display : function() { this.element.value = this.val; },
+
+    reset   : function() {
+        this.val = 0;
+        this.display();
+    },
+    inc     : function() {
+        ++this.val;
+        this.display();
+        return this.val;
+    }
     
-    reset   : function() { this.val = 0;
-                           this.display(); },
-    
-    inc     : function() { ++this.val;
-                           this.display();
-                           return this.val; } 
 };
 
 var message = {
@@ -98,7 +109,7 @@ function enter_answer() {
         score.inc(),
         new_round()
     ):(
-        message.display("Incorrect. The correct answer is " + problem.current.answer + "."),
+        message.display("Incorrect. <br/> The correct answer is " + problem.current.answer + "."),
         new_round()
     );
 };
