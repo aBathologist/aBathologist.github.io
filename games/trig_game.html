@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+	<title>Set-If: Trig_Game</title>
+	<meta http-equiv="content-type" 
+		  content="text/html;charset=utf-8" />
+    <script type="text/javascript" src="trig_game.js" ></script>
+  </head>
+
+  <body>
+
+    <form id="trig-game-form">
+      <fieldset>
+
+        <legend>Trig_Game</legend>
+        <div
+           id="problem_div">
+          <p>What is the value of <span id="problem"></span>?</p>
+        </div>
+        <div id="answer_div">
+          <label for="answer">Answer:</label>
+          <input type="text" name="answer" id="answer"/>
+        </div>
+        <div id="score_div">
+          <label for="score">Score:</label>
+          <input type="text" name="score" id="score" disabled="true"/>
+        </div>
+        <input type="button" name="enter_button" onclick="enter_answer()" value="Enter"/>
+        <div id="message_div">
+          <p id="message"></p>
+        </div>
+      </fieldset>   
+    </form>
+    <input type="button" name="new_game" onclick="new_game()" value="New Game"/>
+  </body>
+  
+</html>
