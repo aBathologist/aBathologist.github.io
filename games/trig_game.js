@@ -110,5 +110,6 @@ function new_round() {
 
 function new_game() {
     score.reset();
+    message.clear();
     new_round();
 };
