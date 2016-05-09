@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+	   xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	   xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	   xmlns:dc="http://purl.org/dc/elements/1.1/"
+	   xmlns:atom="http://www.w3.org/2005/Atom"
+	   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	   xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	   xmlns:georss="http://www.georss.org/georss"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:media="http://search.yahoo.com/mrss/"><channel>
+  <title>nil</title>
+  <atom:link href="http://abathologist.github.io/index.xml" rel="self" type="application/rss+xml" />
+  <link>http://abathologist.github.io/</link>
+  <description><![CDATA[]]></description>
+  <language>en</language>
+  <pubDate>Sun, 08 May 2016 22:01:51 -0400</pubDate>
+  <lastBuildDate>Sun, 08 May 2016 22:01:51 -0400</lastBuildDate>
+  <generator>Emacs 24.5 Org-mode 8.3.4</generator>
+  <webMaster>sf@comp.local (Shon Feder)</webMaster>
+  <image>
+    <url>http://orgmode.org/img/org-mode-unicorn-logo.png</url>
+    <title>nil</title>
+    <link>http://abathologist.github.io/</link>
+  </image>
+
+
+  <div class="figure">
+    <p><img src="http://abathologist.github.io/img/William_Hogarth-The_Bathos-banner.png" alt="William_Hogarth-The_Bathos-banner.png" />
+    </p>
+  </div>
+
+  <item>
+    <title>To be Themed, maybe "Bathos"?</title>
+    <link>http://abathologist.github.io/index.html#orgheadline1</link>
+    <author>Shon Feder</author>
+    <guid isPermaLink="false">http://abathologist.github.io/index.html#orgheadline1</guid>
+    <pubDate>Sun, 08 May 2016 22:01:00 -0400</pubDate>
+
+    <description><![CDATA[<p>
+    A possible epigraph:
+  </p>
+
+  <blockquote>
+    <p>
+      Is there not an architecture of vaults and cellars, as well as of lofty
+      domes and pyramids? Is there not as much skill and labour in making of <i>dykes</i>,
+      as in raising of <i>mounts</i>? Is there not an art of <i>diving</i> as well as of
+      <i>flying</i>?
+    </p>
+
+    <p>
+      — Pope, <i>Peri Bathous, Or the Art of Sinking in Poetry</i>
+    </p>
+  </blockquote>
+    ]]></description>
+  </item>
+</channel>
+</rss>
