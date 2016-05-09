@@ -14,8 +14,8 @@
   <link>http://abathologist.github.io/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Sun, 08 May 2016 22:01:51 -0400</pubDate>
-  <lastBuildDate>Sun, 08 May 2016 22:01:51 -0400</lastBuildDate>
+  <pubDate>Sun, 08 May 2016 22:12:50 -0400</pubDate>
+  <lastBuildDate>Sun, 08 May 2016 22:12:50 -0400</lastBuildDate>
   <generator>Emacs 24.5 Org-mode 8.3.4</generator>
   <webMaster>sf@comp.local (Shon Feder)</webMaster>
   <image>
@@ -23,12 +23,6 @@
     <title>nil</title>
     <link>http://abathologist.github.io/</link>
   </image>
-
-
-  <div class="figure">
-    <p><img src="http://abathologist.github.io/img/William_Hogarth-The_Bathos-banner.png" alt="William_Hogarth-The_Bathos-banner.png" />
-    </p>
-  </div>
 
   <item>
     <title>To be Themed, maybe "Bathos"?</title>
@@ -39,20 +33,20 @@
 
     <description><![CDATA[<p>
     A possible epigraph:
-  </p>
+    </p>
 
-  <blockquote>
+    <blockquote>
     <p>
-      Is there not an architecture of vaults and cellars, as well as of lofty
-      domes and pyramids? Is there not as much skill and labour in making of <i>dykes</i>,
-      as in raising of <i>mounts</i>? Is there not an art of <i>diving</i> as well as of
-      <i>flying</i>?
+    Is there not an architecture of vaults and cellars, as well as of lofty
+    domes and pyramids? Is there not as much skill and labour in making of <i>dykes</i>,
+    as in raising of <i>mounts</i>? Is there not an art of <i>diving</i> as well as of
+    <i>flying</i>?
     </p>
 
     <p>
-      — Pope, <i>Peri Bathous, Or the Art of Sinking in Poetry</i>
+    — Pope, <i>Peri Bathous, Or the Art of Sinking in Poetry</i>
     </p>
-  </blockquote>
+    </blockquote>
     ]]></description>
   </item>
 </channel>
