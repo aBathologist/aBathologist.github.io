@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+	   xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	   xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	   xmlns:dc="http://purl.org/dc/elements/1.1/"
+	   xmlns:atom="http://www.w3.org/2005/Atom"
+	   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	   xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	   xmlns:georss="http://www.georss.org/georss"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:media="http://search.yahoo.com/mrss/"><channel>
+  <title>(Recent)</title>
+  <atom:link href="http://bathetic.net/index.xml" rel="self" type="application/rss+xml" />
+  <link>http://bathetic.net/</link>
+  <description><![CDATA[]]></description>
+  <language>en</language>
+  <pubDate>Tue, 24 May 2016 21:09:48 -0400</pubDate>
+  <lastBuildDate>Tue, 24 May 2016 21:09:48 -0400</lastBuildDate>
+  <generator>Emacs 24.5 Org-mode 8.3.4</generator>
+  <webMaster>sf@comp.local (Shon Feder)</webMaster>
+  <image>
+    <url>http://orgmode.org/img/org-mode-unicorn-logo.png</url>
+    <title>(Recent)</title>
+    <link>http://bathetic.net/</link>
+  </image>
+
+
+  <item>
+    <title>Imperfect Beginnings</title>
+    <link>http://bathetic.net/index.html#orgheadline1</link>
+    <author>Shon Feder</author>
+    <guid isPermaLink="false">http://bathetic.net/index.html#orgheadline1</guid>
+    <pubDate>Mon, 23 May 2016 22:40:00 -0400</pubDate>
+
+    <description><![CDATA[<p>
+
+    </p>
+
+    <p>
+    I want a perfect start: I want a perfect initial post about a perfectly chosen
+    topic to take shape in a perfectly designed site running on a perfectly
+    configured implementation of a perfectly crafted framework. I want this
+    …
+    </p>
+    ]]></description>
+  </item>
+</channel>
+</rss>

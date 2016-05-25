@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+	   xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	   xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	   xmlns:dc="http://purl.org/dc/elements/1.1/"
+	   xmlns:atom="http://www.w3.org/2005/Atom"
+	   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	   xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	   xmlns:georss="http://www.georss.org/georss"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:media="http://search.yahoo.com/mrss/"><channel>
+  <title>(Imperfect Beginnings)</title>
+  <atom:link href="http://bathetic.net/imperfect-beginnings.xml" rel="self" type="application/rss+xml" />
+  <link>http://bathetic.net/</link>
+  <description><![CDATA[]]></description>
+  <language>en</language>
+  <pubDate>Tue, 24 May 2016 21:09:48 -0400</pubDate>
+  <lastBuildDate>Tue, 24 May 2016 21:09:48 -0400</lastBuildDate>
+  <generator>Emacs 24.5 Org-mode 8.3.4</generator>
+  <webMaster>sf@comp.local (Shon Feder)</webMaster>
+  <image>
+    <url>http://orgmode.org/img/org-mode-unicorn-logo.png</url>
+    <title>(Imperfect Beginnings)</title>
+    <link>http://bathetic.net/</link>
+  </image>
+
+  <p>
+
+  </p>
+
+  <p>
+    I want a perfect start: I want a perfect initial post about a perfectly chosen
+    topic to take shape in a perfectly designed site running on a perfectly
+    configured implementation of a perfectly crafted framework. I want this
+    improbably auspicious beginning because I want to avoid embarrassment, because I
+    want to avoid confronting the meagerness of my abilities, and because a
+    preoccupation with interminable parameter-fiddling and configuration-setting
+    postpones the harder task of crafting content. Similarly, it is
+    easier to write about how hard it is to start writing than it is to start
+    writing meaningful things. But once one has begun that easier bit, a beginning
+    has been made all the same!
+  </p>
+
+  <blockquote>
+    <p>
+      perfect (adj.): 
+    </p>
+
+    <p>
+      early 15c. alteration of Middle English <i>parfit</i> (c. 1300), from
+      Old French <i>parfit</i> "finished, completed, ready" (11c.), from Latin <i>perfectus</i>
+      "completed, excellent, accomplished, exquisite," past participle of <i>perficere</i>
+      "accomplish, finish, complete," from <i>per-</i> "completely" (see per) + <i>facere</i>
+      "to make, do, perform" (see factitious). 
+    </p>
+
+    <p>
+      — <a href="http://www.etymonline.com/index.php?term=perfect&amp;allowed_in_frame=0">etymonline.com</a>
+    </p>
+  </blockquote>
+
+  <p>
+    According to the <a href="https://en.wiktionary.org/wiki/etymon">etyma</a> of 'perfect' a "perfect beginning" is an oxymoron. But
+    our words don't mean what philologists think their roots meant millennia ago:
+    everybody knows a <i>perfect beginning</i> is an <i>optimal starting condition</i>; no
+    one thinks it is the paradox of an initiation simultaneously completing itself.
+  </p>
+
+  <p>
+    I have always had too much trouble getting projects started, and even more
+    trouble keeping them underway. However, I am finally learning that any starting
+    conditions that will enable me to move forward are good enough (thanks Andrew
+    and Kat!). So this thing here—be it blog, website, notebook, or something
+    else—is starting as a sketchy skeleton, barely formed, and maybe even malformed,
+    but it is underway all the same!
+  </p>
+
+  <p>
+    A reader who follows the development of this space will see it gradually take
+    shape, steadily changing form until it reaches its inevitably imperfect final
+    state. I can safely say, perfection will be found neither at the beginning nor at
+    the end, but maybe some bits and fragments will seem to find a perfect fit
+    along the way.
+  </p>
+
+  <item>
+    <title>Plans</title>
+    <link>http://bathetic.net/imperfect-beginnings.html#orgheadline1</link>
+    <author>Shon Feder</author>
+    <guid isPermaLink="false">http://bathetic.net/imperfect-beginnings.html#orgheadline1</guid>
+    <pubDate>Mon, 23 May 2016 21:43:00 -0400</pubDate>
+
+    <description><![CDATA[<p>
+    I end my beginning with a list of some of the things I hope to get done.
+  </p>
+    ]]></description>
+  </item>
+</channel>
+</rss>

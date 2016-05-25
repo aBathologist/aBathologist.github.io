@@ -1,0 +1,45 @@
+
+body{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.title{
+    margin-left: 10px;
+}
+
+#preamble > .title {
+    float: left;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+
+.nav {
+    padding-top: 1px;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav ul li{
+    display: inline;
+}
+
+.banner{
+    clear: both;
+}
+
+#banner{
+    height: 90px;
+    width: 100%;
+}
+
+#content{
+    max-width: 700px;
+    margin-left: 30px;
+}
+
+.footer{
+    margin-left: 10px;
+}
