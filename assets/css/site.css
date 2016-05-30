@@ -23,6 +23,8 @@ body{
 
 .nav {
     padding-top: 1px;
+    padding-right: 10px;
+    float: right
 }
 
 .nav ul {
