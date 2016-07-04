@@ -9,18 +9,18 @@
 	   xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>(Imperfect Beginnings)</title>
+  <title>Imperfect Beginnings</title>
   <atom:link href="http://bathetic.net/imperfect-beginnings.xml" rel="self" type="application/rss+xml" />
   <link>http://bathetic.net/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Mon, 30 May 2016 01:22:50 -0400</pubDate>
-  <lastBuildDate>Mon, 30 May 2016 01:22:50 -0400</lastBuildDate>
+  <pubDate>Sun, 03 Jul 2016 20:39:43 -0400</pubDate>
+  <lastBuildDate>Sun, 03 Jul 2016 20:39:43 -0400</lastBuildDate>
   <generator>Emacs 24.5 Org-mode 8.3.4</generator>
   <webMaster>sf@comp.local (Shon Feder)</webMaster>
   <image>
     <url>http://orgmode.org/img/org-mode-unicorn-logo.png</url>
-    <title>(Imperfect Beginnings)</title>
+    <title>Imperfect Beginnings</title>
     <link>http://bathetic.net/</link>
   </image>
 
@@ -86,13 +86,64 @@
   <item>
     <title>Plans</title>
     <link>http://bathetic.net/imperfect-beginnings.html#orgheadline1</link>
-    <author>Shon Feder</author>
+    <author>sf@comp.local (Shon Feder)</author>
     <guid isPermaLink="false">http://bathetic.net/imperfect-beginnings.html#orgheadline1</guid>
     <pubDate>Mon, 23 May 2016 21:43:00 -0400</pubDate>
 
     <description><![CDATA[<p>
     I end my beginning with a list of some of the things I hope to get done.
-  </p>
+    </p>
+
+    <div id="outline-container-orgheadline19" class="outline-3">
+    <h3 id="orgheadline19"><a id="ID-5F3CC0D9-3E00-41DB-B7E8-13E68C7E189E"></a><span class="section-number-3">1.1</span> <a href="http://bathetic.net/../plans.html">Planned Additions and Improvemens</a></h3>
+    <div class="outline-text-3" id="text-1-1">
+    </div>
+    <div id="outline-container-orgheadline10" class="outline-4">
+    <h4 id="orgheadline10"><span class="section-number-4">1.1.1</span> Posts</h4>
+    <div class="outline-text-4" id="text-1-1-1">
+    </div><ol class="org-ol"><li><a id="orgheadline1"></a><span class="todo TODO">TODO</span> Mission Statement<br  /><div class="outline-text-5" id="text-1-1-1-1">
+    <p>
+    Some remarks about my purpose in writing, my reason for sharing the writings,
+    and what kinds of stuff I'll be writing about.
+    </p>
+    </div></li>
+    <li><a id="orgheadline2"></a><span class="todo TODO">TODO</span> Growing into My Shell<br  /><div class="outline-text-5" id="text-1-1-1-2">
+    <p>
+    Documenting essential command line tools I've become acquainted with, and
+    exploring the nature of, and relation between, shells in general and Bash in
+    particular. Reflections on the unique power and challenges of CLIs.
+    </p>
+    </div></li>
+    <li><a id="orgheadline3"></a><span class="todo TODO">TODO</span> org-mode + github = blog-thing<br  /><div class="outline-text-5" id="text-1-1-1-3">
+    <p>
+    Description of my current setup, efforts towards an easier "quick-start" guide,
+    and pointers to the resources I drew from.
+    </p>
+    </div></li>
+    <li><a id="orgheadline4"></a><span class="todo TODO">TODO</span> Programming with Diagrams: Prolog and Logic Circuits<br  /></li>
+    <li><a id="orgheadline5"></a><span class="todo TODO">TODO</span> Lambda Prolog for LPers<br  /></li>
+    <li><a id="orgheadline6"></a><span class="todo TODO">TODO</span> Lambda Prolog for FPers<br  /></li>
+    <li><a id="orgheadline7"></a><span class="todo TODO">TODO</span> Notes on Analogy<br  /></li>
+    <li><a id="orgheadline8"></a><span class="todo TODO">TODO</span> Kant and Curry-Howard: [The Table of Judgements : The Categories of the Understanding :: Intuitionistic Logic : Typed Lambda Calculus]<br  /></li>
+    <li><a id="orgheadline9"></a><span class="todo TODO">TODO</span> Something on Networks<br  /></li></ol>
+    </div>
+
+    <div id="outline-container-orgheadline13" class="outline-4">
+    <h4 id="orgheadline13"><span class="section-number-4">1.1.2</span> Design</h4>
+    <div class="outline-text-4" id="text-1-1-2">
+    </div><ol class="org-ol"><li><a id="orgheadline11"></a><span class="todo TODO">TODO</span> Elegant, minimal styling<br  /></li>
+    <li><a id="orgheadline12"></a><span class="todo TODO">TODO</span> Responsive to mobile<br  /></li></ol>
+    </div>
+
+    <div id="outline-container-orgheadline18" class="outline-4">
+    <h4 id="orgheadline18"><span class="section-number-4">1.1.3</span> Structure</h4>
+    <div class="outline-text-4" id="text-1-1-3">
+    </div><ol class="org-ol"><li><a id="orgheadline14"></a><span class="todo TODO">TODO</span> Tagging<br  /></li>
+    <li><a id="orgheadline15"></a><span class="todo TODO">TODO</span> Automate list of recent changes<br  /></li>
+    <li><a id="orgheadline16"></a><span class="todo TODO">TODO</span> Hover over terminology<br  /></li>
+    <li><a id="orgheadline17"></a><span class="todo TODO">TODO</span> Hints and tips and recommendations<br  /></li></ol>
+    </div>
+    </div>
     ]]></description>
   </item>
 </channel>
