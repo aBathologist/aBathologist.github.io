@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2017-02-25 Sat 09:36 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="viewport" content="width=device-width, initial-scale=1" />
+<title>Why We Program</title>
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="Shon Feder" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<link rel='stylesheet' href='/assets/css/site.css' type='text/css'/>
+<link rel="alternate" type="application/rss+xml"
+                href="http://bathetic.net/remarks/blog.xml"
+                title="RSS feed">
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="preamble" class="status">
+<h1 class='title' href='/remarks/index.html'>Bathetic Remarks</h1>
+<div class='nav'>
+<ul>
+<li><a href='/'>Synthesis</a></li>
+<li><a href='/remarks/index.html'>Remarks</a></li>
+<li><a href='/tips.html'>Tips</a></li>
+<li><a href='/remarks/resources/index.html'>Resources</a></li>
+<li><a href='http://github.com/abathologist'>GitHub</a></li>
+<li><a href='http://twitter.com/shonfeder'>Twitter</a></li>
+</ul>
+</div>
+<div class='banner'>
+<img id='banner' src='/assets/img/synechism-logo.png'
+alt='Synechist-trichotomic logo. Designed by Shon Feder'/>
+</div>
+</div>
+<div id="content">
+<h1 class="title">Why We Program</h1>
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">&lt;2016-10-31 Mon&gt;</span></span>
+</p>
+
+<blockquote>
+<p>
+Educators, generals, dieticians, psychologists, and parents program. Armies,
+students, and some societies are programmed. An assault on large problems
+employs a succession of programs, most of which spring into existence en route.
+These programs are rife with issues that appear to be particular to the problem
+at hand. To appreciate programming as an intellectual activity in its own right
+you must turn to computer programming; you must read and write computer programs
+…
+</p>
+
+<p>
+— <a href="https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-5.html#%_chap_Temp_2">SICP</a>
+</p>
+</blockquote>
+
+<div id="outline-container-orgheadline1" class="outline-2">
+<h2 id="orgheadline1"><a id="ID-367C9E28-639E-4D71-B9AE-34CBD31627AF"></a>Rationale</h2>
+<div class="outline-text-2" id="text-orgheadline1">
+</div>
+<div id="outline-container-orgheadline2" class="outline-3">
+<h3 id="orgheadline2"><a id="ID-A4371BA2-9371-46D5-9471-5722D53B157B"></a>What this is</h3>
+<div class="outline-text-3" id="text-orgheadline2">
+<p>
+A confession of the reasons I program and of my motives for embracing or
+eschewing those reasons.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline3" class="outline-3">
+<h3 id="orgheadline3"><a id="ID-21093476-1BE8-4191-A877-6139BEF7D674"></a>Why this is</h3>
+<div class="outline-text-3" id="text-orgheadline3">
+</div>
+<div id="outline-container-orgheadline4" class="outline-4">
+<h4 id="orgheadline4"><a id="ID-504B6E27-A70E-4682-9003-582EA6A7FE5A"></a>For the non-programmer</h4>
+<div class="outline-text-4" id="text-orgheadline4">
+<p>
+An exposition of some of the thoughts and motives of a programming enthusiast, and perhaps a seduction to try programming yourself. 
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline5" class="outline-4">
+<h4 id="orgheadline5"><a id="ID-9FDFE632-EE20-4E45-A291-AA46595C7B98"></a>For the programmer</h4>
+<div class="outline-text-4" id="text-orgheadline5">
+<p>
+For the working or playing programmer, I have two aims in mind:
+</p>
+
+<ul class="org-ul">
+<li>An invitation to consider or reconsider your own reasons and motives for programming.</li>
+
+<li>A request for commentary or critique on the notions I've presented here.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline6" class="outline-2">
+<h2 id="orgheadline6"><a id="ID-270C129F-1AD8-4B33-8F0E-643E4DD305E5"></a>On rationale</h2>
+<div class="outline-text-2" id="text-orgheadline6">
+<p>
+What does it mean to "have a reason for doing something"?
+</p>
+</div>
+
+<div id="outline-container-orgheadline7" class="outline-3">
+<h3 id="orgheadline7"><a id="ID-925F3F8A-F4DB-4146-96DB-7D6AF1EE7942"></a>Historical and rational cognition</h3>
+<div class="outline-text-3" id="text-orgheadline7">
+<p>
+Kant &#x2013;
+</p>
+
+<p>
+Frege &#x2013; distinction between historical explanation and foundational explanation.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline8" class="outline-3">
+<h3 id="orgheadline8"><a id="ID-A38892A5-4C9C-43D4-8070-8823005DC3FD"></a>A bit of history</h3>
+<div class="outline-text-3" id="text-orgheadline8">
+<p>
+My formal training was in the soft side of the humanities: philosophy, literary
+theory, sociology, pedagogy, philology. Driven by a love of logic, academic
+ineptitude, and the search for a systematic method of coherent inquiry &amp;
+exposition, I developed a passion for programming and an intense interest in
+computer science, generally, but programming language theory (<a href="https://en.wikipedia.org/wiki/Programming_language_theory">PLT</a>) in
+particular. I found no one in my academic milieu who really shared these
+interests, but there was often common intellectual ground. During my years
+recovering from academia, I believed, naively, that if only I could meet people
+who programmed, I'd find companions who shared my particular interests.
+</p>
+
+<p>
+I have arrived at a career in IT and the more I meet and converse with people
+shaping the soft wares that stock our information age, the more I am aware of
+the rich variety in the experience of code and the vast disparities between
+different approaches to programming. I've gathered some notes documenting these
+differences, and some attempts to articulate what programming means to me, both
+in terms of semantics and in terms of praxis.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline9" class="outline-3">
+<h3 id="orgheadline9"><a id="ID-0B595EBF-A4E0-4CFA-8CBD-E6570CD7A666"></a></h3>
+<div class="outline-text-3" id="text-orgheadline9">
+<p>
+For the purposes of this essay, let's say a rational is a principle of the gathering of elements into a thing.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline10" class="outline-2">
+<h2 id="orgheadline10"><a id="ID-E54E3EE6-D095-460F-B3DF-B169F967250C"></a>Programming</h2>
+<div class="outline-text-2" id="text-orgheadline10">
+</div>
+
+<div id="outline-container-orgheadline11" class="outline-3">
+<h3 id="orgheadline11"><a id="ID-87A90B6B-2421-4358-95A5-65560B1597AE"></a>What is it?</h3>
+<div class="outline-text-3" id="text-orgheadline11">
+</div>
+</div>
+
+<div id="outline-container-orgheadline12" class="outline-3">
+<h3 id="orgheadline12"><a id="ID-4E82E363-7723-4533-BB36-B420E5F03B6F"></a>Programming and computation</h3>
+<div class="outline-text-3" id="text-orgheadline12">
+</div>
+</div>
+</div>
+<div id="outline-container-orgheadline13" class="outline-2">
+<h2 id="orgheadline13"><a id="ID-EEEFCACB-3580-4A3B-B2CC-B234F4AAB0B2"></a>Reasons</h2>
+<div class="outline-text-2" id="text-orgheadline13">
+</div>
+
+<div id="outline-container-orgheadline14" class="outline-3">
+<h3 id="orgheadline14"><a id="ID-660303FB-67F9-4172-8208-822892A16098"></a>Accumulating things</h3>
+<div class="outline-text-3" id="text-orgheadline14">
+<p>
+Profit motive!
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline15" class="outline-3">
+<h3 id="orgheadline15"><a id="ID-0C87465F-0A7C-4A52-98BD-2B5E32694347"></a>Making things</h3>
+<div class="outline-text-3" id="text-orgheadline15">
+<p>
+The joy of creation. Realizing a vision. Sharing one's creative produce.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline16" class="outline-3">
+<h3 id="orgheadline16"><a id="ID-0C7D2B1D-C158-45D3-9F0B-43E5200ACFC8"></a>Making things happen</h3>
+<div class="outline-text-3" id="text-orgheadline16">
+<p>
+Power. Mastery over nature. Bacon. But then Horkheimer and Adorno's critique.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-orgheadline17" class="outline-3">
+<h3 id="orgheadline17"><a id="ID-45D3453B-2638-4F9E-8173-5375FE62C7A2"></a>Understanding things</h3>
+<div class="outline-text-3" id="text-orgheadline17">
+</div>
+</div>
+
+<div id="outline-container-orgheadline18" class="outline-3">
+<h3 id="orgheadline18"><a id="ID-ED67285A-6D4D-464B-9070-8A9C76E64A3A"></a>Exploring things</h3>
+<div class="outline-text-3" id="text-orgheadline18">
+</div>
+</div>
+
+<div id="outline-container-orgheadline19" class="outline-3">
+<h3 id="orgheadline19"><a id="ID-9509786D-0A5E-49DB-AF53-85B5820A5672"></a>Communicating things</h3>
+<div class="outline-text-3" id="text-orgheadline19">
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<div class='footer'>
+Copyright 2016 Shon Feder.<br>
+Last updated 2017-02-25 Sat 09:36. <br>
+Built with <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.1.1 (<a href="http://orgmode.org">Org</a> mode 8.3.5).
+</div>
+</div>
+</body>
+</html>

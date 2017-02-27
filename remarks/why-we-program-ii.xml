@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+	   xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	   xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	   xmlns:dc="http://purl.org/dc/elements/1.1/"
+	   xmlns:atom="http://www.w3.org/2005/Atom"
+	   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	   xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	   xmlns:georss="http://www.georss.org/georss"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:media="http://search.yahoo.com/mrss/"><channel>
+  <title>Why We Program: II. What is Programming?</title>
+  <atom:link href="http://bathetic.net/why-we-program-ii.xml" rel="self" type="application/rss+xml" />
+  <link>http://bathetic.net/</link>
+  <description><![CDATA[]]></description>
+  <language>en</language>
+  <pubDate>Sun, 26 Feb 2017 20:14:03 -0500</pubDate>
+  <lastBuildDate>Sun, 26 Feb 2017 20:14:03 -0500</lastBuildDate>
+  <generator>Emacs 25.1 Org-mode 8.3.5</generator>
+  <webMaster>sf@comp.local (Shon Feder)</webMaster>
+  <image>
+    <url>http://orgmode.org/img/org-mode-unicorn-logo.png</url>
+    <title>Why We Program: II. What is Programming?</title>
+    <link>http://bathetic.net/</link>
+  </image>
+
+
+  <item>
+    <title>What is Programming?</title>
+    <link>http://bathetic.net/why-we-program-ii.html#orgheadline1</link>
+    <author>sf@comp.local (Shon Feder)</author>
+    <guid isPermaLink="false">http://bathetic.net/why-we-program-ii.html#orgheadline1</guid>
+    <pubDate>Sat, 25 Feb 2017 09:35:00 -0500</pubDate>
+
+    <description><![CDATA[<div id="outline-container-orgheadline1" class="outline-3">
+    <h3 id="orgheadline1"><a id="ID-87A90B6B-2421-4358-95A5-65560B1597AE"></a><span class="section-number-3">1.1</span> What is it?</h3>
+    <div class="outline-text-3" id="text-1-1">
+    </div>
+    </div>
+
+    <div id="outline-container-orgheadline1" class="outline-3">
+    <h3 id="orgheadline1"><a id="ID-4E82E363-7723-4533-BB36-B420E5F03B6F"></a><span class="section-number-3">1.2</span> Programming and computation</h3>
+    <div class="outline-text-3" id="text-1-2">
+    <blockquote>
+    <p>
+    Now all rational cognition is either cognition from concepts or cognition
+    from the construction of concepts; the former is called philosophical and the
+    latter mathematical.
+    </p>
+
+    <p>
+    — Kant, B865
+    </p>
+    </blockquote>
+    </div>
+    </div>
+    ]]></description>
+  </item>
+</channel>
+</rss>

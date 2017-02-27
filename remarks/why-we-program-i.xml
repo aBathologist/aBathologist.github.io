@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+	   xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	   xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	   xmlns:dc="http://purl.org/dc/elements/1.1/"
+	   xmlns:atom="http://www.w3.org/2005/Atom"
+	   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	   xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	   xmlns:georss="http://www.georss.org/georss"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:media="http://search.yahoo.com/mrss/"><channel>
+  <title>Why We Program: I. How ask "Why"?</title>
+  <atom:link href="http://bathetic.net/why-we-program-i.xml" rel="self" type="application/rss+xml" />
+  <link>http://bathetic.net/</link>
+  <description><![CDATA[]]></description>
+  <language>en</language>
+  <pubDate>Sun, 26 Feb 2017 20:14:03 -0500</pubDate>
+  <lastBuildDate>Sun, 26 Feb 2017 20:14:03 -0500</lastBuildDate>
+  <generator>Emacs 25.1 Org-mode 8.3.5</generator>
+  <webMaster>sf@comp.local (Shon Feder)</webMaster>
+  <image>
+    <url>http://orgmode.org/img/org-mode-unicorn-logo.png</url>
+    <title>Why We Program: I. How ask "Why"?</title>
+    <link>http://bathetic.net/</link>
+  </image>
+
+  <p>
+
+  </p>
+
+  <blockquote>
+    <p>
+      Educators, generals, dieticians, psychologists, and parents program. Armies,
+      students, and some societies are programmed. An assault on large problems
+      employs a succession of programs, most of which spring into existence en route.
+      These programs are rife with issues that appear to be particular to the problem
+      at hand. To appreciate programming as an intellectual activity in its own right
+      you must turn to computer programming; you must read and write computer programs
+      …
+    </p>
+
+    <p>
+      — Ableson, Sussman, and Sussman, <a href="https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-5.html#%_chap_Temp_2">SICP</a>
+    </p>
+  </blockquote>
+
+  <item>
+    <title>Rationale</title>
+    <link>http://bathetic.net/why-we-program-i.html#orgheadline1</link>
+    <author>sf@comp.local (Shon Feder)</author>
+    <guid isPermaLink="false">http://bathetic.net/why-we-program-i.html#orgheadline1</guid>
+    <pubDate>Sun, 26 Feb 2017 18:16:00 -0500</pubDate>
+
+    <description><![CDATA[<p>
+    <b>What this is:</b> A confession of the reasons I program and of my motives for embracing or
+    eschewing those reasons.
+    </p>
+
+    <p>
+    <b>Why this is:</b> <i>For the non-programmer</i>, it is an exposition of some of the
+    thoughts and motives of a programming enthusiast, and perhaps a seduction to
+    try programming yourself. <i>For the programmer</i>, working or playing, I have two
+    aims in mind:
+    </p>
+
+    <ul class="org-ul">
+    <li>An invitation to consider, or reconsider, your own reasons and motives for programming.</li>
+    <li>A request for commentary or critique on the notions I've presented here.</li>
+    </ul>
+    ]]></description>
+  </item>
+
+  <item>
+    <title>On rationale</title>
+    <link>http://bathetic.net/why-we-program-i.html#orgheadline3</link>
+    <author>sf@comp.local (Shon Feder)</author>
+    <guid isPermaLink="false">http://bathetic.net/why-we-program-i.html#orgheadline3</guid>
+    <pubDate>Sat, 25 Feb 2017 09:15:00 -0500</pubDate>
+
+    <description><![CDATA[<p>
+    What does this mean: "to have a reason for doing something"? When we take this
+    to be a matter of motive, fitting answers take shape:
+    </p>
+
+    <ul class="org-ul">
+    <li>money</li>
+    <li>pleasure</li>
+    <li>power</li>
+    <li>status</li>
+    <li>edification</li>
+    <li>etc.</li>
+    </ul>
+
+    <p>
+    <i>Motive</i> was a matter of setting things in motion:
+    </p>
+
+    <blockquote>
+    <p>
+    mid-14c., "something brought forward," from Old French <i>motif</i> "will, drive,
+    motivation," noun use of adjective, literally "moving," from Medieval Latin
+    <i>motivus</i> "moving, impelling," from Latin <i>motus</i> "a moving, motion," past
+    participle of <i>movere</i> "to move". Meaning "that which inwardly
+    moves a person to behave a certain way" is from early 15c.
+    </p>
+
+    <p>
+    — <a href="http://etymonline.com/index.php?term=motive&amp;allowed_in_frame=0">Etymonline</a>
+    </p>
+    </blockquote>
+
+    <p>
+    These refracted reflections on my reasons for programming are modulated by the
+    impulses that direct my intention — base and baseless alike. But this kind
+    of <i>reason</i> isn't the one I'm really interested in.
+    </p>
+
+    <div id="outline-container-orgheadline2" class="outline-3">
+    <h3 id="orgheadline2"><a id="ID-925F3F8A-F4DB-4146-96DB-7D6AF1EE7942"></a><span class="section-number-3">2.1</span> Historical and rational cognition</h3>
+    <div class="outline-text-3" id="text-2-1">
+    <p>
+    Like the impulses that set matter in motion, motivating inclinations are
+    contingent, <i>historical</i> components of organized action. Such inclinations
+    are produced by contingent, historical cognitions. These tell us something
+    about the conditions and circumstances surrounding the action and the actor
+    but they don't reveal anything about the <i>fundamental</i> structures that
+    organize and sustain the circumstance.
+    </p>
+
+    <blockquote>
+    <p>
+    If I abstract from all content of cognition, objectively considered, then all
+    cognition, considered subjectively, is either historical or rational.
+    Historical cognition is <i>cognitio ex datis</i>, rational cognition however,
+    <i>cognitio ex principiis</i>. However a cognition may have been given originally,
+    it is still historical for him who possesses it if he cognizes it only to the
+    degree and extent that it has been given to him from elsewhere, whether it
+    has been given to him through immediate experience or told to him or even
+    given to him through instruction (general cognitions) … He has formed himself
+    according to an alien reason, but the faculty of imitation is not that of
+    generation, i.e., the cognition did not arise <b>from</b> reason for him, and
+    although objectively it was certainly a rational cognition, subjectively it
+    is still merely historical.
+    </p>
+
+    <p>
+    — Kant, <i>Critique of Pure Reason</i>
+    </p>
+    </blockquote>
+
+    <p>
+    Suppose, as Abelson and the Sussmans claim, that computer programming stages
+    an encounter with the essential structure of programming and programmability.
+    Then computer programming would enable rational cognition of programming and
+    an understanding of the subject matter on the basis of its fundamental
+    principles, <i>cognitio ex principiis</i>. In contrast, experience with the
+    informal programs of the educator, general, and dietician would provide a
+    merely historical cognition of programming. The latter only gives us
+    understanding relative to the programmable domain that happens to be given in
+    the course of our practical experience. Such understanding, <i>cognitio ex
+    datis</i>, would be bound and determined by the contingencies of whatever we
+    were given, and it would be would be "rife with issues that appear to be
+    particular to the problem at hand".
+    </p>
+
+    <p>
+    But the same can be said of reflexive understanding that seeks cognition of
+    the reasons for pursuing "programming as an intellectual activity in its own
+    right". If we settle for an account of the historical circumstances that
+    determined our practice, and fixate on a taxonomy of the extraneous desires
+    that motivate our interest, we'll have merely historical understanding of our
+    reasons for programming.
+    </p>
+
+    <blockquote>
+    <p>
+
+    </p>
+
+    <p>
+    The historical approach, that seeks to eavesdrop on the becoming of things
+    and from becoming to know their essence, certainly carries great authority;
+    but it has also its limitations. If in the existing flux of all things there
+    is nothing fixed, eternity persists, then the knowability of the world would
+    end and everything would plummet into confusion. One thinks, as it appears,
+    that concepts in the individual mind emerge like the leaves on trees, and
+    believes that their nature could be recognized from this, that one explores
+    and seeks to define their emergence psychologically from the nature of the
+    human mind. But this conception pushes everything into the subjective, and if
+    pursued to the end, annihilates truth. What one calls the history of concepts
+    is rather either a history of our knowledge of concepts or of the meanings of
+    words. 
+    </p>
+
+    <p>
+    — Frege, <i>The Foundations of Arithmetic</i>
+    </p>
+    </blockquote>
+
+    <p>
+    I <i>will</i> note some highlights in the historical determination of my
+    preoccupation with programming, but these reflections on why we program aim
+    to remark essential features of the relation between instrumental reason and
+    computer programming. The grounding principle from which this understanding
+    struggles to take shape is the inherent correspondence between the basic
+    nature of calculative reason, formalized in computation, and the essentially
+    programmatic nature of all instrumentation.
+    </p>
+    </div>
+    </div>
+    ]]></description>
+</item>
+
+<item>
+  <title>The program</title>
+  <link>http://bathetic.net/why-we-program-i.html#orgheadline4</link>
+  <author>sf@comp.local (Shon Feder)</author>
+  <guid isPermaLink="false">http://bathetic.net/why-we-program-i.html#orgheadline4</guid>
+  <pubDate>Sun, 26 Feb 2017 18:05:00 -0500</pubDate>
+
+  <description><![CDATA[<ul class="org-ul">
+  <li><a href="http://bathetic.net/why-we-program-i.html">I. How ask "Why"?</a></li>
+  <li>II. What is Programming?</li>
+  <li>III. Reasons</li>
+  </ul>
+  ]]></description>
+</item>
+</channel>
+</rss>
