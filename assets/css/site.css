@@ -42,7 +42,8 @@ ul li:before{
 .nav {
     padding-top: 1px;
     padding-right: 10px;
-    float: right
+    float: right;
+    min-width: 400px;
 }
 
 .nav ul {

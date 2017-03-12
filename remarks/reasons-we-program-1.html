@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2017-02-26 Sun 20:14 -->
+<!-- 2017-03-12 Sun 16:38 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="viewport" content="width=device-width, initial-scale=1" />
-<title>Why We Program: I. How ask "Why"?</title>
+<title>Reasons We Program: 1. How to Ask Why</title>
 <meta  name="generator" content="Org-mode" />
 <meta  name="author" content="Shon Feder" />
 <style type="text/css">
@@ -162,106 +162,116 @@ for the JavaScript code in this tag.
 <li><a href='http://twitter.com/shonfeder'>Twitter</a></li>
 </ul>
 </div>
-<div class='banner'>
-
-</div>
 </div>
 <div id="content">
-<h1 class="title">Why We Program: I. How ask "Why"?</h1>
+<h1 class="title">Reasons We Program: 1. How to Ask Why</h1>
 <p>
 <span class="timestamp-wrapper"><span class="timestamp">&lt;2017-02-26 Sun&gt;</span></span>
+</p>
+
+<p>
+This is two things simultaneously: First, it is a confession of the reasons I
+program and of my motives for embracing or eschewing those reasons. Second, it
+is a collection of remarks inquiring into the relation between reasoning and
+programming in general. I hope it might be interesting to programmers and
+non-programmers alike: <i>For the non-programmer</i>, it is intended as an
+exposition of some of the thoughts and motives of a programming enthusiast,
+and perhaps a seduction to try programming yourself. <i>For the programmer</i>,
+working or playing, I have two aims in mind: first, an invitation to consider,
+or reconsider, your own reasons and motives for programming; second, a request
+for commentary or critique on the notions I've presented here.
+</p>
+
+<div id="outline-container-orgheadline1" class="outline-2">
+<h2 id="orgheadline1"><a id="ID-8C639657-DA73-4E7B-8FA6-26242F130C67"></a>The program</h2>
+<div class="outline-text-2" id="text-orgheadline1">
+<p>
+These remarks are divided into three parts and the first two are prolegomna for
+the third. The first clarifies what kind of question I mean to pose. The
+second attempts to determine what I'm asking about. The third explores
+some answers to the question determined through the preceding two:
+</p>
+
+<ul class="org-ul">
+<li><a href="why-we-program-i.html">1. How to Ask Why</a></li>
+<li>2. What is Programming?</li>
+<li>3. Reasons We Program</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgheadline2" class="outline-2">
+<h2 id="orgheadline2"><a id="ID-270C129F-1AD8-4B33-8F0E-643E4DD305E5"></a>Rationale</h2>
+<div class="outline-text-2" id="text-orgheadline2">
+<p>
+In their forward to the famous <i>Structure and Interpretation of Computer
+Programs</i>, Abelson, Sussman, and Sussman suggest that a preoccupation with
+the reasons for which particular programs are conceived obstructs insight into
+the essential nature of programming itself:
 </p>
 
 <blockquote>
 <p>
 Educators, generals, dieticians, psychologists, and parents program. Armies,
 students, and some societies are programmed. An assault on large problems
-employs a succession of programs, most of which spring into existence en route.
-These programs are rife with issues that appear to be particular to the problem
-at hand. To appreciate programming as an intellectual activity in its own right
-you must turn to computer programming; you must read and write computer programs
-…
-</p>
-
-<p>
-— Ableson, Sussman, and Sussman, <a href="https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-5.html#%_chap_Temp_2">SICP</a>
-</p>
-</blockquote>
-
-<div id="outline-container-orgheadline1" class="outline-2">
-<h2 id="orgheadline1"><a id="ID-5761389C-A8D5-4F14-8AF8-C511C6A66DA8"></a>Rationale</h2>
-<div class="outline-text-2" id="text-orgheadline1">
-<p>
-<b>What this is:</b> A confession of the reasons I program and of my motives for embracing or
-eschewing those reasons.
-</p>
-
-<p>
-<b>Why this is:</b> <i>For the non-programmer</i>, it is an exposition of some of the
-thoughts and motives of a programming enthusiast, and perhaps a seduction to
-try programming yourself. <i>For the programmer</i>, working or playing, I have two
-aims in mind:
-</p>
-
-<ul class="org-ul">
-<li>An invitation to consider, or reconsider, your own reasons and motives for programming.</li>
-<li>A request for commentary or critique on the notions I've presented here.</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-orgheadline2" class="outline-2">
-<h2 id="orgheadline2"><a id="ID-270C129F-1AD8-4B33-8F0E-643E4DD305E5"></a>On rationale</h2>
-<div class="outline-text-2" id="text-orgheadline2">
-<p>
-What does this mean: "to have a reason for doing something"? When we take this
-to be a matter of motive, fitting answers take shape:
-</p>
-
-<ul class="org-ul">
-<li>money</li>
-<li>pleasure</li>
-<li>power</li>
-<li>status</li>
-<li>edification</li>
-<li>etc.</li>
-</ul>
-
-<p>
-<i>Motive</i> was a matter of setting things in motion:
-</p>
-
-<blockquote>
-<p>
-mid-14c., "something brought forward," from Old French <i>motif</i> "will, drive,
-motivation," noun use of adjective, literally "moving," from Medieval Latin
-<i>motivus</i> "moving, impelling," from Latin <i>motus</i> "a moving, motion," past
-participle of <i>movere</i> "to move". Meaning "that which inwardly
-moves a person to behave a certain way" is from early 15c.
-</p>
-
-<p>
-— <a href="http://etymonline.com/index.php?term=motive&amp;allowed_in_frame=0">Etymonline</a>
+employs a succession of programs, most of which spring into existence en
+route. These programs are rife with issues that appear to be particular to the
+problem at hand. To appreciate programming as an intellectual activity in its
+own right you must turn to computer programming; you must read and write
+computer programs &#x2013; many of them. It doesn't matter much what the programs
+are about or what applications they serve. What does matter is how well they
+perform and how smoothly they fit with other programs in the creation of still
+greater programs. The programmer must seek both perfection of part and
+adequacy of collection. In this book the use of ``program'' is focused on the
+creation, execution, and study of programs written in a dialect of Lisp for
+execution on a digital computer. Using Lisp we restrict or limit not what we
+may program, but only the notation for our program descriptions. — <a href="https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-5.html">SICP</a>
 </p>
 </blockquote>
 
 <p>
-These refracted reflections on my reasons for programming are modulated by the
-impulses that direct my intention — base and baseless alike. But this kind
-of <i>reason</i> isn't the one I'm really interested in.
+The claims made here are bold and far reaching, and they reward reflection.
+They claim that an understanding of the essential properties of the practice
+of programming requires an analysis indifferent to any particular programs'
+purpose. Moreover, the <i>computer program</i> is held above all other media as the
+only medium in which the essential shape of the practice can be made apparent.
+They claim that the computer is an unlimited programmatic tool, and that
+anything programmable — from the personal and pedagogical to the globally
+murderous — can be programmed on a digital computer in one particular dialect
+of a single programming language.
+</p>
+
+<p>
+I intend to consider the bases and implications of these claims in the course
+of my remarks, but I believe them to be correct. When I say "I program" I mean
+that I write and read computer programs. When I ask why we program, I mean to
+inquire into the reasons we have for programming in the most general sense and
+for any application. However, the nature of reason (understood in an
+essentially Kantian sense) and the meaning of 'program' dictate that this
+inquiry be essentially concerned with computation.
 </p>
 </div>
+</div>
 
-<div id="outline-container-orgheadline3" class="outline-3">
-<h3 id="orgheadline3"><a id="ID-925F3F8A-F4DB-4146-96DB-7D6AF1EE7942"></a>Historical and rational cognition</h3>
-<div class="outline-text-3" id="text-orgheadline3">
+<div id="outline-container-orgheadline3" class="outline-2">
+<h2 id="orgheadline3"><a id="ID-825B7445-6F13-4364-8037-D2F69B211315"></a>Essential reasons for programming</h2>
+<div class="outline-text-2" id="text-orgheadline3">
+<p>
+What does this mean: "to have a reason for doing something"? When taken to be
+a matter of motive, fitting answers take shape: money, pleasure, power,
+status, edification, etc. Originally, <a href="http://etymonline.com/index.php?term=motive&amp;allowed_in_frame=0"><i>motive</i> was a matter of setting things
+in motion</a> and these refracted reflections on reasons for programming <i>are</i>
+modulated by the impulses that propel our intention — base and baseless alike.
+But this kind of reason isn't the sort I'm interested in.
+</p>
+
 <p>
 Like the impulses that set matter in motion, motivating inclinations are
-contingent, <i>historical</i> components of organized action. Such inclinations
-are produced by contingent, historical cognitions. These tell us something
-about the conditions and circumstances surrounding the action and the actor
-but they don't reveal anything about the <i>fundamental</i> structures that
-organize and sustain the circumstance.
+contingent, <i>historical</i> components of organized action. Such inclinations are
+produced by contingent, historical cognitions. Such cognitions tell us
+something about the conditions and circumstances surrounding the action and
+the actor but they don't reveal anything about the <i>fundamental</i> structures
+that organize and sustain the circumstance:
 </p>
 
 <blockquote>
@@ -273,7 +283,7 @@ Historical cognition is <i>cognitio ex datis</i>, rational cognition however,
 it is still historical for him who possesses it if he cognizes it only to the
 degree and extent that it has been given to him from elsewhere, whether it
 has been given to him through immediate experience or told to him or even
-given to him through instruction (general cognitions) … He has formed himself
+given to him through instruction … He has formed himself
 according to an alien reason, but the faculty of imitation is not that of
 generation, i.e., the cognition did not arise <b>from</b> reason for him, and
 although objectively it was certainly a rational cognition, subjectively it
@@ -296,16 +306,16 @@ merely historical cognition of programming. The latter only gives us
 understanding relative to the programmable domain that happens to be given in
 the course of our practical experience. Such understanding, <i>cognitio ex
 datis</i>, would be bound and determined by the contingencies of whatever we
-were given, and it would be would be "rife with issues that appear to be
-particular to the problem at hand".
+were given, and it would be "rife with issues that appear to be particular to
+the problem at hand".
 </p>
 
 <p>
-But the same can be said of reflexive understanding that seeks cognition of
+But the same can be said of a reflexive understanding that seeks cognition of
 the reasons for pursuing "programming as an intellectual activity in its own
 right". If we settle for an account of the historical circumstances that
 determined our practice, and fixate on a taxonomy of the extraneous desires
-that motivate our interest, we'll have merely historical understanding of our
+motivating our interest, we'll have a merely historical understanding of our
 reasons for programming.
 </p>
 
@@ -326,7 +336,7 @@ and seeks to define their emergence psychologically from the nature of the
 human mind. But this conception pushes everything into the subjective, and if
 pursued to the end, annihilates truth. What one calls the history of concepts
 is rather either a history of our knowledge of concepts or of the meanings of
-words. 
+words.
 </p>
 
 <p>
@@ -335,33 +345,25 @@ words.
 </blockquote>
 
 <p>
-I <i>will</i> note some highlights in the historical determination of my
-preoccupation with programming, but these reflections on why we program aim
-to remark essential features of the relation between instrumental reason and
+I <i>will</i> note some highlights in the historical determination of my (and our)
+preoccupation with programming, but these reflections on why we program aim to
+remark essential features of the relation between instrumental reason and
 computer programming. The grounding principle from which this understanding
 struggles to take shape is the inherent correspondence between the basic
 nature of calculative reason, formalized in computation, and the essentially
-programmatic nature of all instrumentation.
+programmatic nature of all instrumentation. At the same time, while I find
+Frege's platonic apology for conceptual eternality evocative, the computable
+is accurately (though neither precisely nor clearly) describable as the domain
+in which constructable conceptualization seizes hold of its own historical
+determination.
 </p>
-</div>
-</div>
-</div>
-
-<div id="outline-container-orgheadline4" class="outline-2">
-<h2 id="orgheadline4"><a id="ID-8C639657-DA73-4E7B-8FA6-26242F130C67"></a>The program</h2>
-<div class="outline-text-2" id="text-orgheadline4">
-<ul class="org-ul">
-<li><a href="why-we-program-i.html">I. How ask "Why"?</a></li>
-<li>II. What is Programming?</li>
-<li>III. Reasons</li>
-</ul>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <div class='footer'>
 Copyright 2016 Shon Feder.<br>
-Last updated 2017-02-26 Sun 20:13. <br>
+Last updated 2017-03-12 Sun 16:38. <br>
 Built with <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.1.1 (<a href="http://orgmode.org">Org</a> mode 8.3.5).
 </div>
 </div>

@@ -9,30 +9,46 @@
 	   xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Why We Program: II. What is Programming?</title>
-  <atom:link href="http://bathetic.net/why-we-program-ii.xml" rel="self" type="application/rss+xml" />
+  <title>Reasons We Program: II. What is Programming?</title>
+  <atom:link href="http://bathetic.net/reasons-we-program-2.xml" rel="self" type="application/rss+xml" />
   <link>http://bathetic.net/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Sun, 26 Feb 2017 20:14:03 -0500</pubDate>
-  <lastBuildDate>Sun, 26 Feb 2017 20:14:03 -0500</lastBuildDate>
+  <pubDate>Sun, 12 Mar 2017 16:38:51 -0400</pubDate>
+  <lastBuildDate>Sun, 12 Mar 2017 16:38:51 -0400</lastBuildDate>
   <generator>Emacs 25.1 Org-mode 8.3.5</generator>
   <webMaster>sf@comp.local (Shon Feder)</webMaster>
   <image>
     <url>http://orgmode.org/img/org-mode-unicorn-logo.png</url>
-    <title>Why We Program: II. What is Programming?</title>
+    <title>Reasons We Program: II. What is Programming?</title>
     <link>http://bathetic.net/</link>
   </image>
 
 
   <item>
     <title>What is Programming?</title>
-    <link>http://bathetic.net/why-we-program-ii.html#orgheadline1</link>
+    <link>http://bathetic.net/reasons-we-program-2.html#orgheadline1</link>
     <author>sf@comp.local (Shon Feder)</author>
-    <guid isPermaLink="false">http://bathetic.net/why-we-program-ii.html#orgheadline1</guid>
+    <guid isPermaLink="false">http://bathetic.net/reasons-we-program-2.html#orgheadline1</guid>
     <pubDate>Sat, 25 Feb 2017 09:35:00 -0500</pubDate>
 
-    <description><![CDATA[<div id="outline-container-orgheadline1" class="outline-3">
+    <description><![CDATA[<p>
+    Computation is the autonomous part of inscription; it is the immanent
+    self-determination of writing. We seize on computation when we confine writing
+    to an exact description of what and where it is itself is inscribed. Computing
+    is the writing that reads and rewrites itself. The computer is the agent who
+    mediates this autonomous developing.
+    </p>
+
+    <p>
+    The programmatic is that which can be written out in advance. A program sets out
+    in writing what is to be done. Executing a program means reading what was
+    written and enacting the plan described. Computation is where the programmatic
+    comes into what is essentially its own: what was written in advance users a
+    computer to read and execute itself.
+    </p>
+
+    <div id="outline-container-orgheadline1" class="outline-3">
     <h3 id="orgheadline1"><a id="ID-87A90B6B-2421-4358-95A5-65560B1597AE"></a><span class="section-number-3">1.1</span> What is it?</h3>
     <div class="outline-text-3" id="text-1-1">
     </div>

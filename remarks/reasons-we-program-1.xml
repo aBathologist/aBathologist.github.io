@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+	   xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	   xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	   xmlns:dc="http://purl.org/dc/elements/1.1/"
+	   xmlns:atom="http://www.w3.org/2005/Atom"
+	   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	   xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	   xmlns:georss="http://www.georss.org/georss"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:media="http://search.yahoo.com/mrss/"><channel>
+  <title>Reasons We Program: 1. How to Ask Why</title>
+  <atom:link href="http://bathetic.net/reasons-we-program-1.xml" rel="self" type="application/rss+xml" />
+  <link>http://bathetic.net/</link>
+  <description><![CDATA[]]></description>
+  <language>en</language>
+  <pubDate>Sun, 12 Mar 2017 16:38:52 -0400</pubDate>
+  <lastBuildDate>Sun, 12 Mar 2017 16:38:52 -0400</lastBuildDate>
+  <generator>Emacs 25.1 Org-mode 8.3.5</generator>
+  <webMaster>sf@comp.local (Shon Feder)</webMaster>
+  <image>
+    <url>http://orgmode.org/img/org-mode-unicorn-logo.png</url>
+    <title>Reasons We Program: 1. How to Ask Why</title>
+    <link>http://bathetic.net/</link>
+  </image>
+
+  <p>
+
+  </p>
+
+  <p>
+    This is two things simultaneously: First, it is a confession of the reasons I
+    program and of my motives for embracing or eschewing those reasons. Second, it
+    is a collection of remarks inquiring into the relation between reasoning and
+    programming in general. I hope it might be interesting to programmers and
+    non-programmers alike: <i>For the non-programmer</i>, it is intended as an
+    exposition of some of the thoughts and motives of a programming enthusiast,
+    and perhaps a seduction to try programming yourself. <i>For the programmer</i>,
+    working or playing, I have two aims in mind: first, an invitation to consider,
+    or reconsider, your own reasons and motives for programming; second, a request
+    for commentary or critique on the notions I've presented here.
+  </p>
+
+  <item>
+    <title>The program</title>
+    <link>http://bathetic.net/reasons-we-program-1.html#orgheadline1</link>
+    <author>sf@comp.local (Shon Feder)</author>
+    <guid isPermaLink="false">http://bathetic.net/reasons-we-program-1.html#orgheadline1</guid>
+    <pubDate>Sun, 26 Feb 2017 18:05:00 -0500</pubDate>
+
+    <description><![CDATA[<p>
+    These remarks are divided into three parts and the first two are prolegomna for
+    the third. The first clarifies what kind of question I mean to pose. The
+    second attempts to determine what I'm asking about. The third explores
+    some answers to the question determined through the preceding two:
+    </p>
+
+    <ul class="org-ul">
+    <li><a href="http://bathetic.net/why-we-program-i.html">1. How to Ask Why</a></li>
+    <li>2. What is Programming?</li>
+    <li>3. Reasons We Program</li>
+    </ul>
+    ]]></description>
+  </item>
+
+  <item>
+    <title>Rationale</title>
+    <link>http://bathetic.net/reasons-we-program-1.html#orgheadline2</link>
+    <author>sf@comp.local (Shon Feder)</author>
+    <guid isPermaLink="false">http://bathetic.net/reasons-we-program-1.html#orgheadline2</guid>
+    <pubDate>Sat, 25 Feb 2017 09:15:00 -0500</pubDate>
+
+    <description><![CDATA[<p>
+    In their forward to the famous <i>Structure and Interpretation of Computer
+    Programs</i>, Abelson, Sussman, and Sussman suggest that a preoccupation with
+    the reasons for which particular programs are conceived obstructs insight into
+    the essential nature of programming itself:
+    </p>
+
+    <blockquote>
+    <p>
+    Educators, generals, dieticians, psychologists, and parents program. Armies,
+    students, and some societies are programmed. An assault on large problems
+    employs a succession of programs, most of which spring into existence en
+    route. These programs are rife with issues that appear to be particular to the
+    problem at hand. To appreciate programming as an intellectual activity in its
+    own right you must turn to computer programming; you must read and write
+    computer programs -- many of them. It doesn't matter much what the programs
+    are about or what applications they serve. What does matter is how well they
+    perform and how smoothly they fit with other programs in the creation of still
+    greater programs. The programmer must seek both perfection of part and
+    adequacy of collection. In this book the use of ``program'' is focused on the
+    creation, execution, and study of programs written in a dialect of Lisp for
+    execution on a digital computer. Using Lisp we restrict or limit not what we
+    may program, but only the notation for our program descriptions. — <a href="https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-5.html">SICP</a>
+    </p>
+    </blockquote>
+
+    <p>
+    The claims made here are bold and far reaching, and they reward reflection.
+    They claim that an understanding of the essential properties of the practice
+    of programming requires an analysis indifferent to any particular programs'
+    purpose. Moreover, the <i>computer program</i> is held above all other media as the
+    only medium in which the essential shape of the practice can be made apparent.
+    They claim that the computer is an unlimited programmatic tool, and that
+    anything programmable — from the personal and pedagogical to the globally
+    murderous — can be programmed on a digital computer in one particular dialect
+    of a single programming language.
+    </p>
+
+    <p>
+    I intend to consider the bases and implications of these claims in the course
+    of my remarks, but I believe them to be correct. When I say "I program" I mean
+    that I write and read computer programs. When I ask why we program, I mean to
+    inquire into the reasons we have for programming in the most general sense and
+    for any application. However, the nature of reason (understood in an
+    essentially Kantian sense) and the meaning of 'program' dictate that this
+    inquiry be essentially concerned with computation.
+    </p>
+    ]]></description>
+  </item>
+
+  <item>
+    <title>Essential reasons for programming</title>
+    <link>http://bathetic.net/reasons-we-program-1.html#orgheadline3</link>
+    <author>sf@comp.local (Shon Feder)</author>
+    <guid isPermaLink="false">http://bathetic.net/reasons-we-program-1.html#orgheadline3</guid>
+    <pubDate>Sun, 12 Mar 2017 16:27:00 -0400</pubDate>
+
+    <description><![CDATA[<p>
+    What does this mean: "to have a reason for doing something"? When taken to be
+    a matter of motive, fitting answers take shape: money, pleasure, power,
+    status, edification, etc. Originally, <a href="http://etymonline.com/index.php?term=motive&amp;allowed_in_frame=0"><i>motive</i> was a matter of setting things
+    in motion</a> and these refracted reflections on reasons for programming <i>are</i>
+    modulated by the impulses that propel our intention — base and baseless alike.
+    But this kind of reason isn't the sort I'm interested in.
+    </p>
+
+    <p>
+    Like the impulses that set matter in motion, motivating inclinations are
+    contingent, <i>historical</i> components of organized action. Such inclinations are
+    produced by contingent, historical cognitions. Such cognitions tell us
+    something about the conditions and circumstances surrounding the action and
+    the actor but they don't reveal anything about the <i>fundamental</i> structures
+    that organize and sustain the circumstance:
+    </p>
+
+    <blockquote>
+    <p>
+    If I abstract from all content of cognition, objectively considered, then all
+    cognition, considered subjectively, is either historical or rational.
+    Historical cognition is <i>cognitio ex datis</i>, rational cognition however,
+    <i>cognitio ex principiis</i>. However a cognition may have been given originally,
+    it is still historical for him who possesses it if he cognizes it only to the
+    degree and extent that it has been given to him from elsewhere, whether it
+    has been given to him through immediate experience or told to him or even
+    given to him through instruction … He has formed himself
+    according to an alien reason, but the faculty of imitation is not that of
+    generation, i.e., the cognition did not arise <b>from</b> reason for him, and
+    although objectively it was certainly a rational cognition, subjectively it
+    is still merely historical.
+    </p>
+
+    <p>
+    — Kant, <i>Critique of Pure Reason</i>
+    </p>
+    </blockquote>
+
+    <p>
+    Suppose, as Abelson and the Sussmans claim, that computer programming stages
+    an encounter with the essential structure of programming and programmability.
+    Then computer programming would enable rational cognition of programming and
+    an understanding of the subject matter on the basis of its fundamental
+    principles, <i>cognitio ex principiis</i>. In contrast, experience with the
+    informal programs of the educator, general, and dietician would provide a
+    merely historical cognition of programming. The latter only gives us
+    understanding relative to the programmable domain that happens to be given in
+    the course of our practical experience. Such understanding, <i>cognitio ex
+    datis</i>, would be bound and determined by the contingencies of whatever we
+    were given, and it would be "rife with issues that appear to be particular to
+    the problem at hand".
+    </p>
+
+    <p>
+    But the same can be said of a reflexive understanding that seeks cognition of
+    the reasons for pursuing "programming as an intellectual activity in its own
+    right". If we settle for an account of the historical circumstances that
+    determined our practice, and fixate on a taxonomy of the extraneous desires
+    motivating our interest, we'll have a merely historical understanding of our
+    reasons for programming.
+    </p>
+
+    <blockquote>
+    <p>
+
+    </p>
+
+    <p>
+    The historical approach, that seeks to eavesdrop on the becoming of things
+    and from becoming to know their essence, certainly carries great authority;
+    but it has also its limitations. If in the existing flux of all things there
+    is nothing fixed, eternity persists, then the knowability of the world would
+    end and everything would plummet into confusion. One thinks, as it appears,
+    that concepts in the individual mind emerge like the leaves on trees, and
+    believes that their nature could be recognized from this, that one explores
+    and seeks to define their emergence psychologically from the nature of the
+    human mind. But this conception pushes everything into the subjective, and if
+    pursued to the end, annihilates truth. What one calls the history of concepts
+    is rather either a history of our knowledge of concepts or of the meanings of
+    words.
+    </p>
+
+    <p>
+    — Frege, <i>The Foundations of Arithmetic</i>
+    </p>
+    </blockquote>
+
+    <p>
+    I <i>will</i> note some highlights in the historical determination of my (and our)
+    preoccupation with programming, but these reflections on why we program aim to
+    remark essential features of the relation between instrumental reason and
+    computer programming. The grounding principle from which this understanding
+    struggles to take shape is the inherent correspondence between the basic
+    nature of calculative reason, formalized in computation, and the essentially
+    programmatic nature of all instrumentation. At the same time, while I find
+    Frege's platonic apology for conceptual eternality evocative, the computable
+    is accurately (though neither precisely nor clearly) describable as the domain
+    in which constructable conceptualization seizes hold of its own historical
+    determination.
+    </p>
+    ]]></description>
+</item>
+</channel>
+</rss>

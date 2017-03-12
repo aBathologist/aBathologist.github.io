@@ -9,27 +9,27 @@
 	   xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Why We Program: III. Reasons</title>
-  <atom:link href="http://bathetic.net/why-we-program-iii.xml" rel="self" type="application/rss+xml" />
+  <title>Reasons We Program: III. Reasons</title>
+  <atom:link href="http://bathetic.net/reasons-we-program-3.xml" rel="self" type="application/rss+xml" />
   <link>http://bathetic.net/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Sun, 26 Feb 2017 20:14:02 -0500</pubDate>
-  <lastBuildDate>Sun, 26 Feb 2017 20:14:02 -0500</lastBuildDate>
+  <pubDate>Sun, 12 Mar 2017 16:38:51 -0400</pubDate>
+  <lastBuildDate>Sun, 12 Mar 2017 16:38:51 -0400</lastBuildDate>
   <generator>Emacs 25.1 Org-mode 8.3.5</generator>
   <webMaster>sf@comp.local (Shon Feder)</webMaster>
   <image>
     <url>http://orgmode.org/img/org-mode-unicorn-logo.png</url>
-    <title>Why We Program: III. Reasons</title>
+    <title>Reasons We Program: III. Reasons</title>
     <link>http://bathetic.net/</link>
   </image>
 
 
   <item>
     <title>Accumulating things</title>
-    <link>http://bathetic.net/why-we-program-iii.html#orgheadline1</link>
+    <link>http://bathetic.net/reasons-we-program-3.html#orgheadline1</link>
     <author>sf@comp.local (Shon Feder)</author>
-    <guid isPermaLink="false">http://bathetic.net/why-we-program-iii.html#orgheadline1</guid>
+    <guid isPermaLink="false">http://bathetic.net/reasons-we-program-3.html#orgheadline1</guid>
     <pubDate>Sun, 26 Feb 2017 18:05:00 -0500</pubDate>
 
     <description><![CDATA[<p>
@@ -40,9 +40,9 @@
 
   <item>
     <title>Making things</title>
-    <link>http://bathetic.net/why-we-program-iii.html#orgheadline2</link>
+    <link>http://bathetic.net/reasons-we-program-3.html#orgheadline2</link>
     <author>sf@comp.local (Shon Feder)</author>
-    <guid isPermaLink="false">http://bathetic.net/why-we-program-iii.html#orgheadline2</guid>
+    <guid isPermaLink="false">http://bathetic.net/reasons-we-program-3.html#orgheadline2</guid>
     <pubDate>Sun, 26 Feb 2017 18:05:00 -0500</pubDate>
 
     <description><![CDATA[<p>
@@ -53,9 +53,9 @@
 
   <item>
     <title>Making things happen</title>
-    <link>http://bathetic.net/why-we-program-iii.html#orgheadline3</link>
+    <link>http://bathetic.net/reasons-we-program-3.html#orgheadline3</link>
     <author>sf@comp.local (Shon Feder)</author>
-    <guid isPermaLink="false">http://bathetic.net/why-we-program-iii.html#orgheadline3</guid>
+    <guid isPermaLink="false">http://bathetic.net/reasons-we-program-3.html#orgheadline3</guid>
     <pubDate>Sun, 26 Feb 2017 18:05:00 -0500</pubDate>
 
     <description><![CDATA[<p>
@@ -66,9 +66,9 @@
 
   <item>
     <title>Understanding things</title>
-    <link>http://bathetic.net/why-we-program-iii.html#orgheadline4</link>
+    <link>http://bathetic.net/reasons-we-program-3.html#orgheadline4</link>
     <author>sf@comp.local (Shon Feder)</author>
-    <guid isPermaLink="false">http://bathetic.net/why-we-program-iii.html#orgheadline4</guid>
+    <guid isPermaLink="false">http://bathetic.net/reasons-we-program-3.html#orgheadline4</guid>
     <pubDate>Sun, 26 Feb 2017 18:05:00 -0500</pubDate>
 
     <description><![CDATA[]]></description>
@@ -76,18 +76,18 @@
 
   <item>
     <title>Exploring things</title>
-    <link>http://bathetic.net/why-we-program-iii.html#orgheadline5</link>
+    <link>http://bathetic.net/reasons-we-program-3.html#orgheadline5</link>
     <author>sf@comp.local (Shon Feder)</author>
-    <guid isPermaLink="false">http://bathetic.net/why-we-program-iii.html#orgheadline5</guid>
+    <guid isPermaLink="false">http://bathetic.net/reasons-we-program-3.html#orgheadline5</guid>
     <pubDate>Sun, 26 Feb 2017 18:05:00 -0500</pubDate>
 
     <description><![CDATA[]]></description>
   </item>
   <item>
     <title>Communicating things</title>
-    <link>http://bathetic.net/why-we-program-iii.html#orgheadline6</link>
+    <link>http://bathetic.net/reasons-we-program-3.html#orgheadline6</link>
     <author>sf@comp.local (Shon Feder)</author>
-    <guid isPermaLink="false">http://bathetic.net/why-we-program-iii.html#orgheadline6</guid>
+    <guid isPermaLink="false">http://bathetic.net/reasons-we-program-3.html#orgheadline6</guid>
     <pubDate>Sun, 26 Feb 2017 18:05:00 -0500</pubDate>
 
     <description><![CDATA[]]></description>
@@ -95,9 +95,9 @@
 
   <item>
     <title></title>
-    <link>http://bathetic.net/why-we-program-iii.html#orgheadline7</link>
+    <link>http://bathetic.net/reasons-we-program-3.html#orgheadline7</link>
     <author>sf@comp.local (Shon Feder)</author>
-    <guid isPermaLink="false">http://bathetic.net/why-we-program-iii.html#orgheadline7</guid>
+    <guid isPermaLink="false">http://bathetic.net/reasons-we-program-3.html#orgheadline7</guid>
     <pubDate>Sun, 26 Feb 2017 18:05:00 -0500</pubDate>
 
     <description><![CDATA[]]></description>
