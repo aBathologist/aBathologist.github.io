@@ -14,8 +14,8 @@
   <link>http://bathetic.net/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Sun, 12 Mar 2017 16:38:51 -0400</pubDate>
-  <lastBuildDate>Sun, 12 Mar 2017 16:38:51 -0400</lastBuildDate>
+  <pubDate>Sun, 12 Mar 2017 21:54:05 -0400</pubDate>
+  <lastBuildDate>Sun, 12 Mar 2017 21:54:05 -0400</lastBuildDate>
   <generator>Emacs 25.1 Org-mode 8.3.5</generator>
   <webMaster>sf@comp.local (Shon Feder)</webMaster>
   <image>
@@ -23,6 +23,134 @@
     <title>Reasons We Program: II. What is Programming?</title>
     <link>http://bathetic.net/</link>
   </image>
+
+  <p>
+    I reorient this exposition by reiteration my central excerpt, and then giving it
+    a close, point-by-point exegesis:
+  </p>
+
+  <blockquote>
+    <p>
+      Educators, generals, dieticians, psychologists, and parents program. Armies,
+      students, and some societies are programmed. An assault on large problems
+      employs a succession of programs, most of which spring into existence en
+      route. These programs are rife with issues that appear to be particular to the
+      problem at hand. To appreciate programming as an intellectual activity in its
+      own right you must turn to computer programming; you must read and write
+      computer programs -- many of them. It doesn't matter much what the programs
+      are about or what applications they serve. What does matter is how well they
+      perform and how smoothly they fit with other programs in the creation of still
+      greater programs. The programmer must seek both perfection of part and
+      adequacy of collection. In this book the use of ``program'' is focused on the
+      creation, execution, and study of programs written in a dialect of Lisp for
+      execution on a digital computer. Using Lisp we restrict or limit not what we
+      may program, but only the notation for our program descriptions. — <a href="https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-5.html">SICP</a>
+    </p>
+  </blockquote>
+
+  <div class="org-src-container">
+    <label class="org-src-name">Vimish recipe for splitting a paragraph into lines of blockquoted sentences:</label>
+    <pre class="src src-aside">vip:s/\./\.\n#+END_QUOTE\n\n#+BEGIN_QUOTE\n/
+    </pre>
+  </div>
+
+  <p>
+    Who is that programs?
+  </p>
+
+  <blockquote>
+    <p>
+      Educators, generals, dieticians, psychologists, and parents program.
+    </p>
+  </blockquote>
+
+  <p>
+    Here we have a list of some of the kinds of people who
+    practice programming. All manner of individuals in all kinds of occupations,
+    professional, militant, and personal, engage in programming.
+  </p>
+
+  <p>
+    What gets programmed?
+  </p>
+
+  <blockquote>
+    <p>
+      Armies, students, and some societies are programmed.
+    </p>
+  </blockquote>
+
+  <p>
+    Collective organizations.
+  </p>
+
+  <p>
+    What is programming used for?
+  </p>
+
+  <blockquote>
+    <p>
+      An assault on large problems employs a succession of programs, most of which
+      spring into existence en route.
+    </p>
+  </blockquote>
+
+
+  <blockquote>
+    <p>
+      These programs are rife with issues that appear to be particular to the problem
+      at hand.
+    </p>
+  </blockquote>
+
+
+  <blockquote>
+    <p>
+      To appreciate programming as an intellectual activity in its own right you must
+      turn to computer programming; you must read and write computer programs -- many
+      of them.
+    </p>
+  </blockquote>
+
+
+  <blockquote>
+    <p>
+      It doesn't matter much what the programs are about or what applications they
+      serve.
+    </p>
+  </blockquote>
+
+
+  <blockquote>
+    <p>
+      What does matter is how well they perform and how smoothly they fit with other
+      programs in the creation of still greater programs.
+    </p>
+  </blockquote>
+
+
+  <blockquote>
+    <p>
+      The programmer must seek both perfection of part and adequacy of collection.
+    </p>
+  </blockquote>
+
+
+  <blockquote>
+    <p>
+      In this book the use of ``program'' is focused on the creation, execution, and
+      study of programs written in a dialect of Lisp for execution on a digital
+      computer.
+    </p>
+  </blockquote>
+
+
+  <blockquote>
+    <p>
+      Using Lisp we restrict or limit not what we may program, but only the notation
+      for our program descriptions.
+    </p>
+  </blockquote>
 
 
   <item>
